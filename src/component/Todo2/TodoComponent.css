@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  h1, .fw-bold {
+    color: #343a40;
+  }
+  
+  :root {
+    --active-row-bg: #ffc107;
+  }
+
+  .table-active {
+    --bs-table-bg: var(--active-row-bg) !important;
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    color: #ffc107;
+  }
+  
+  button {
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .input-group .form-control {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  
+  .input-group .btn {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+  
+  .list-group-item {
+    border-radius: 0.25rem;
+  }
+  
+  .list-group-item .btn {
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item .btn:hover {
+    background-color: #343a40;
+    color: #fff;
+  }
+
+
