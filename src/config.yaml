@@ -1,4 +1,4 @@
-secret: 1234567890qwertyuiopasdfghjklzxcvbnm
+secret: SECRET
 database:
   host: localhost
   port: 5432
